@@ -2,7 +2,7 @@ import React from "react";
 import { Container, AppBar, Typography, Grow, Grid } from "@mui/material";
 import memories from "./images/memories.png";
 import Posts from "./components/Posts/Posts";
-import Form from "./components/Form/Form";
+import Formm from "./components/Form/Formm";
 import useStyles from "./styles";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
@@ -48,7 +48,7 @@ function App() {
               <Posts />
             </Grid>
             <Grid item xs={12} sm={4}>
-              <Form />
+              <Formm />
             </Grid>
           </Grid>
         </Container>
